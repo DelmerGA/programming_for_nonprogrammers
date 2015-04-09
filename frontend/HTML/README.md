@@ -78,7 +78,7 @@ What if we had more to say than "Hello, World?"
 
 How would we represent [this text from earlier](/hello_world.html)
 
-[Let's see here](/hello_world_2.html).
+[Let's see here](frontend/HTML/hello_world_2.html).
 
 
 
