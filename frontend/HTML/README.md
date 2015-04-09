@@ -28,7 +28,7 @@
 
 >  *The principal substance (as written matter, illustrations, or music) offered by a World Wide Web site.*
 
-[Content by itself doesn't not have structure, especially text.](/text.txt)
+[Content by itself doesn't not have structure, especially text.](text.txt)
 
 Content put into documents needs a way to refer to other related documents.
 
@@ -76,7 +76,7 @@ Let's dicuss some of the tags from the example above:
 
 What if we had more to say than "Hello, World?"
 
-How would we represent [this text from earlier](/hello_world.html)
+How would we represent [this text from earlier](hello_world.html)
 
 [Let's see here](hello_world_2.html).
 
