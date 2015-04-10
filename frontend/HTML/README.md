@@ -345,17 +345,15 @@ The idea behind HTML tags is to create a semantically meaningful markup of the p
 ### Presentational Examples
 
 ```
-<center>
-  <blink>My super <s>semantic</s> text</blink>
-  <marquee>But there's something weird about it</marquee>
-</center>
-
+  <center>
+    <u><b>My super <s>semantic</s> html</b></u><br>
+    <marquee>But there's something weird about it</marquee>
+    <marquee><img src="http://ochumanesociety.com/clients/3697/images/kittens.jpg" alt="kitten"></marquee>
+  </center>
 ```
 
-<center>
-  <blink>My super <s>semantic</s> text</blink>
-  <marquee>But there's something weird about it</marquee>
-</center>
+Clearly the `<marquee>` tag is something that is way too presentational. It's something that should be left to **CSS**. However the other tags like `<b>`, `<s>`, and `<u>`
+
 
 ### More Semantice Examples
 
@@ -400,6 +398,16 @@ But even that is still inadequate. Let's try again.
 ``` 
 
 
+### HTML5 
+
+**HTML5** is mostly a **buzz word** used to highlight the introduction and usage of semantic tags. Tags like `<strong>` and `<em>` are preferred to `<b>` and `<i>`, and visually they do the same thing, but the newer tags support **screen readers**. New tags were also introdcued to describe common parts of a web page: `<article>`, `<header>`, `<aside>`, etc.. 
+
+The features that **HTML5** also introduced were the **audio** and **video** tags. 
+
+Checkout the `<audio>` and `<video>` tags for adding those types of media.
+
+
+<video src="https://youtu.be/e-ORhEE9VVg">Your Browser Doesn't Support This</video>
 
 
 
