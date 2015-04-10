@@ -406,12 +406,22 @@ The features that **HTML5** also introduced were the **audio** and **video** tag
 
 Checkout the `<audio>` and `<video>` tags for adding those types of media.
 
+[video example](http://codepen.io/pen/?editors=100)
 
-<video src="https://youtu.be/e-ORhEE9VVg">Your Browser Doesn't Support This</video>
+### SVG
 
+[SVG](https://css-tricks.com/using-svg/)
+[Learning D3](https://www.dashingd3js.com/)
 
+## Resources
 
+* [Can I Use](http://caniuse.com/)
+* [W3C HTML](http://www.w3.org/wiki/HTML/Training)
+* [HTML MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
+## Anti-Resources
+
+* [w3schools](http://www.w3schools.com/)
 
 
 
