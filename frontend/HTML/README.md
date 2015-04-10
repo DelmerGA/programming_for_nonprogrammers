@@ -406,7 +406,7 @@ The features that **HTML5** also introduced were the **audio** and **video** tag
 
 Checkout the `<audio>` and `<video>` tags for adding those types of media.
 
-[video example](http://codepen.io/pen/?editors=100)
+[video example](http://codepen.io/anon/pen/WbqzvE?editors=100)
 
 ### SVG
 
