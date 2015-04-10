@@ -42,7 +42,16 @@ The **Box Model** is the way the browser allows us to interact with an element t
 
 ![Box Model](http://www.1keydata.com/css-tutorial/box-model.jpg)
 
+The width of an element is the width of the **content box** of an element. The **margin**, **padding**, and **border** are spatial boundaries with thickness.
 
+![Box Width](http://www.planetoftunes.com/website-design/css/media/boxmodel.gif)
+
+
+![Layer 1](http://www.bakingdom.com/wp-content/uploads/2011/07/Hogwarts-House-Cake-Layers.jpg)
+
+![Layer 2](http://www.teachpe.com/images/anatomy/bone_structure.jpg)
+
+![Layer 3](http://waynesword.palomar.edu/images/peachfr1.jpg)
 
 
 
