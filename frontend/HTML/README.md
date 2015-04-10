@@ -342,7 +342,22 @@ The idea behind HTML tags is to create a semantically meaningful markup of the p
 
 **Semantic** HTML are tags or use of tags that aim toward creating semantically meaningful sections or groupings of content: `<body>`, `<div>`, `<p>`
 
-### Examples
+### Presentational Examples
+
+```
+<center>
+  <blink>My super <s>semantic</s> text</blink>
+  <marquee>But there's something weird about it</marquee>
+</center>
+
+```
+
+<center>
+  <blink>My super <s>semantic</s> text</blink>
+  <marquee>But there's something weird about it</marquee>
+</center>
+
+### More Semantice Examples
 
 We could say the following with HTML
 
