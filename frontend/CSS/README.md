@@ -393,6 +393,12 @@ When designing a site it going to be very important to be aware of the fundament
     * Give each tweet a rounded border.
   * set the size of the avatar image, hint: use `.avatar img` as the selector.
     * float all avatar images to the left.
-    * give each avatar image a padding below of `20px` and a padding `right` of `20px`.
+    * give each avatar image a padding below of `20px` and a padding `right` of `20px`
+
+
+
+
+
+> Later: [sol](http://codepen.io/anon/pen/JoQaPX)
 
 
