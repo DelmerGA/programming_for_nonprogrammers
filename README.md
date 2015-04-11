@@ -23,7 +23,7 @@
 	* Create different sections in your website (layout).
 * **CSS basics**
 	* Basic styling properties and how to connect with HTML.
-	* Selectors and how the different sections of a site.
+	* Selectors and the different sections of a site.
 * **JS basics**
 	* Why is JavaScript such a popular language?
 	* The purpose of JavaScript and how it drives interactivity in your site
