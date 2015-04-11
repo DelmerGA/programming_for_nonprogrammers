@@ -290,12 +290,59 @@ Use this one resource and your knowledge of the box model for inspiration
 
 
 
-## Toward Mastery
+## Toward Mastery: Positioning
 
 ![Yoda](http://blitz.arc.unsw.edu.au/wp-content/uploads/2014/06/YODA.gif)
 
 
 
+[Positioning elements requires a lot of vocabularly and can make CSS tricky](https://developer.mozilla.org/en-US/docs/Web/CSS/position). Let's take 
+
+* **Static Positioning** the normal and defualt positioning of option an element. 
+* **Relative Positioning** is like the normal positioning except the browser waits until after the element has been place in the layout of the page to adjust it's position relative to it's natural position. The layout behaves as though the element were in it's original position though.
+* **Absolute Positioning** is positioning relative to a containing element and where the browser does not leave space for it in the layout.
+* **Fixed Positioning** is the positioning idea that element will position relative to the window and left there.
+* **Inherit** is the idea that an element should be positioned according to the same rules as it's containing element.
+
+
+
+Notes: **relative** positioning allows us to move the element whereas **static** won't. 
+Notes: **absolute** positioning does not take up space in the normal flow of the page.
+
+
+[GREAT VIDEO](https://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/)
+
+
+* Example 5
+  * [**static**](http://codepen.io/anon/pen/XJLqEj)
+  * [**relative**](http://codepen.io/anon/pen/raEvdL?editors=110)
+  * [**absolute**](http://codepen.io/anon/pen/azgGYJ?editors=110)
+  * [**fixed**](http://codepen.io/anon/pen/QwXrme?editors=110)
+
+
+
+## Separation Of Concerns
+
+So far we have been putting our **CSS** in the same file and that's not good when it comes to making larger projects with hundreds of lines of CSS.
+
+To link our external stylesheets all we'll have to do is copy our css out 
+
+[Download This](https://github.com/DelmerGA/separate_files)
+
+
+## Tools And Techniques
+
+People often times will prototype and work fast when it comes to building components. There are a ton of tools out there for rapidly testing ideas: 
+
+* **[codepen](codepen.io)**
+* **[JSBin.com](jsbin.com)**
+* **[JSfiddle](jsfiddle.net)**
+
+## C.R.A.P. and Visual Design
+
+When designing a site it going to be very important to be aware of the fundamentals of design. Design fundamentals aren't optional as they are basic rules around making sure information is clearly and effectively conveyed, whether or not it is pretty is subjective.
+
+* C.R.A.P.: Contrast, Repetition, Alignment, and Proximity. These are the four major concerns that you're directly trying to address when apply CSS.
 
 
 
