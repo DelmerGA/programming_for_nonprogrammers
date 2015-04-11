@@ -252,6 +252,48 @@ In order to style an element based an `id` name we prefix it with `#`, hash symb
 ![Empire Strikes Back](https://simotron.files.wordpress.com/2012/12/tumblr_m6cj4rjvsd1r196nto1_1280.jpg)
 
 
+It's time for us to use the **Box Model**. Let's started with **padding**;
+
+* **Example 4**
+
+  ```html
+    <div class="greeting">
+      Hello World
+    </div>
+  ```
+and
+
+  ```css
+  .greeting {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+  }
+  ```
+  * Note that now the result is that the element has a `20px` padding surrounding it.
+
+
+### Exercise 
+
+Use this one resource and your knowledge of the box model for inspiration
+
+[Resource](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+
+**Directions**: Change the above `.greeting` styling to *quickly and easily* add the following.
+
+* Make `.greeting` have a *top* and *bottom* **padding** of `50px`, and a *left* and *right* of `10px.
+* Make `.greeting` have a *top* and *bottom* **margin** of `100px`, and a *left* and *right* of `10px.
+
+#### Bonus
+
+* Make `.greeting` have an **orange**, `solid`, and `5px` wide border.
+
+
+
+
+
+
+
 
 
 
