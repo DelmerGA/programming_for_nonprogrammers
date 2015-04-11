@@ -12,7 +12,7 @@ There are many things that we'll hope to accomplish, but at the end of day I hop
 | explain and apply the purposes of a large framework like **Bootstrap** and **JS libraries** like **jQuery**, and utilize other components **to create a basic UI**. |
 
 
-[Training Day](http://alock011.students.digitalodu.com/wp-content/uploads/2014/03/Padawans.jpg)
+![Training Day](http://alock011.students.digitalodu.com/wp-content/uploads/2014/03/Padawans.jpg)
 
 
 To fulfill the above **learning objectives** we won't just have to push ourselves through the mentioned materials, but also, the skills needed to **effectively practice these**.
