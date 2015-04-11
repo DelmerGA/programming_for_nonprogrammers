@@ -40,11 +40,7 @@ The **Box Model** is the way the browser allows us to interact with an element t
 * **Border** is the visual area enclosing the padding and content of an element that 
 * **Margin** is the visual area outside of the content and surrounding the border.
 
-![Box Model](http://www.1keydata.com/css-tutorial/box-model.jpg)
-
-The width of an element is the width of the **content box** of an element. The **margin**, **padding**, and **border** are spatial boundaries with thickness.
-
-![Box Width](http://www.planetoftunes.com/website-design/css/media/boxmodel.gif)
+CSS is all about using layers for elements.
 
 
 ![Layer 1](http://www.bakingdom.com/wp-content/uploads/2011/07/Hogwarts-House-Cake-Layers.jpg)
@@ -53,24 +49,207 @@ The width of an element is the width of the **content box** of an element. The *
 
 ![Layer 3](http://waynesword.palomar.edu/images/peachfr1.jpg)
 
+![Layer 4](http://www.mccormickgourmet.com/-/media/Recipe%20Photos/McCormick/Appetizer/1007x545/Seven%20Layer%20Fiesta%20Dip.ashx)
+
+-----
+
+![Box Model](http://www.1keydata.com/css-tutorial/box-model.jpg)
+
+The width of an element is the width of the **content box** of an element. The **margin**, **padding**, and **border** are spatial boundaries with thickness.
+
+![Box Width](http://www.planetoftunes.com/website-design/css/media/boxmodel.gif)
+
+
+In particular, **margin**, **padding**, and **border** each are broken up into **left**, **top**, **right**, and **bottom** components.
+
+
+![parts of space](http://www.w3.org/TR/CSS2/images/boxdim.png)
+
+### Practicing Your Style
+
+A common easy way to write some CSS for a web page is to add style in a `<style>` tag.
+
+
+* Example 1: background color
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>example_1</title>
+  <style>
+    div {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Hello world
+  </div>
+</body>
+</html>
+
+```
+  * The style in this example is inside the `<style></style>` tags.
+
+    ```html
+
+      <style>
+      div {
+        background-color: blue;
+      }
+      </style>
+    ```
+  * Let's break down what is written here.
+
+    ```
+      selector
+       |
+      \|/
+      div {
+          ____ style attribute
+         |
+        \|/
+        background-color: blue;
+                          /|\
+                           |
+                   value --
+      }
+
+    ```
+* Example 2: Font color
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>example_1</title>
+  <style>
+    div {
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Hello world
+  </div>
+</body>
+</html>
+
+```
+
+### Intro Exercises
+
+* Search **MDN** to find a way to give height to a box. Give `div` a height and width of`100px`.
+* Search **MDN** to find a way to **"center"** text using CSS. What are some other ways you can position text?
+* Search **MDN** to find a way to make an element **transparent** using CSS.
+
+
+### Using Selectors
+
+One problem with using **name**'s to style are page is their lack of **specificity**.
+
+* Example 3
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>example_1</title>
+  <style>
+    div {
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Hello world
+  </div>
+  <div>
+   More text
+  </div>
+</body>
+</html>
+
+```
+
+How could we make one box that was *blue* and another that was *red*? Luckily we can add or use attributes on our elements to style them more specifically. Let's add a class to our elements.
+
+
+```html
+  <div class="blue">
+    Hello world
+  </div>
+  <div class="red">
+   More text
+  </div>
+```
+
+But how do we style based on a class name? Simple you prefix the name of the class you want to select with a `.`.
+
+
+```html
+  <div class="blue">
+    Hello world
+  </div>
+
+```
+
+would be selected using `.blue`. Similarly the everything with `class` containing `red` can be selected using `.red`.
 
 
 
+```html
+  <div class="red">
+   More text
+  </div>
+```
 
 
+## Exercises
+
+* Create styling for a `.red` class that has a `red` background and `white` text.
+* Create styling for a `.blue` class that has a `blue` background and `white` text.
+* Modify both classes to make them have `height` and `width` of `100px`
 
 
+Styling other attributes. In some special circumstances you might need to style unique elements on the page, i.e. elements with an `id`. Elements that might be unique are often times larger layout sections or container elements.
+
+* Example 4
+
+```html
+  <div id="tweetsCon">
+    <div class="tweet">
+      Hello again
+    </div>
+    <div class="tweet">
+      Hello world
+    </div>
+  </div>
+```
+
+In order to style an element based an `id` name we prefix it with `#`, hash symbol.
+
+```css
+#tweetsCon {
+  background-color: blue;
+  color: white;
+  width: 150px;
+}
+```
+
+[example_4](http://codepen.io/anon/pen/MYMGbg?editors=110)
 
 
+##  The Box Model Strikes Back
 
 
-
-
-
-
-
-
-
+![Empire Strikes Back](https://simotron.files.wordpress.com/2012/12/tumblr_m6cj4rjvsd1r196nto1_1280.jpg)
 
 
 

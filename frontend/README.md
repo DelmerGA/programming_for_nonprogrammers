@@ -20,6 +20,7 @@ To fulfill the above **learning objectives** we won't just have to push ourselve
 	* Tools & Windows
 	* Finder and Navigating	
 	* Editor Play
+		(opening html files and the relative link)
 	* The Browser
 	* Roles of HTML, CSS, and JavaScript	
 * **HTML**
