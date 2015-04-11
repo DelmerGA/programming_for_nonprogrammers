@@ -345,4 +345,54 @@ When designing a site it going to be very important to be aware of the fundament
 * C.R.A.P.: Contrast, Repetition, Alignment, and Proximity. These are the four major concerns that you're directly trying to address when apply CSS.
 
 
+## More on Selectors And Styling
+
+* [Specificity](http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Specificity)
+  * [Related](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+* [Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
+
+## Challenge Question
+
+```html
+<div id="tweetFeed">
+  <div class="tweet tweet-recent">
+    <div class="avatar">
+      <img src="https://news.ycombinator.com/favicon.ico" alt="YC-logo">
+    </div>
+    <div class="fullname">Y Combinator<span class="handle">@ycombinator</span></div>
+    <p class="tweet-text">
+      Clustering of Time Series Subsequences Is Meaningless [pdf] 
+    </p>
+  </div>
+  <div class="tweet">
+    <div class="avatar">
+      <img src="https://news.ycombinator.com/favicon.ico" alt="YC-logo">
+    </div>
+    <div class="fullname">Y Combinator<span class="handle">@ycombinator</span></div>
+    <p class="tweet-text">
+      The deadline to apply to YC S15 is in 10 hours. We're looking forward to reading your applications
+    </p>
+  </div>
+  <div class="tweet">
+    <div class="avatar">
+      <img src="https://news.ycombinator.com/favicon.ico" alt="YC-logo">
+    </div>
+    <div class="fullname">Y Combinator<span class="handle">@ycombinator</span></div>
+    <p class="tweet-text">
+      The deadline to apply to YC S15 is tomorrow night (3/27) at 8pm PT! Apply here
+    </p>
+  </div>
+</div>
+```
+
+* Goals
+  * Give the `#tweetFeed` a width of `80%` and center it. (Hint: use margins to center)
+  * Set the `.tweet-text` to display block` and a margin of `20px`
+  * Give each tweet some internal `padding` of `10px` and `background color`.
+    * Give each tweet a fixed height of `75px`.
+    * Give each tweet a rounded border.
+  * set the size of the avatar image, hint: use `.avatar img` as the selector.
+    * float all avatar images to the left.
+    * give each avatar image a padding below of `20px` and a padding `right` of `20px`.
+
 
