@@ -1,0 +1,10 @@
+  .taco.burrito {
+    background-color: red;
+    color: white;
+  }
+
+  #greeting {
+    background-color: blue;
+    padding: 100px 20px;
+    border: solid 10px orange;
+  }

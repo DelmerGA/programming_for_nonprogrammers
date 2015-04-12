@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ID Styling</title>
+  <link rel="stylesheet" type="text/css" href="site.css">
+
+
+  <script>
+    //alert("Loading");
+
+    var randValue = function () {
+      // get random num between 0 - 255
+      var randNum = Math.random()*50+200;
+      // next round it to get rid of decimal
+      var green = Math.round(randNum);
+      return green;
+    }
+
+    var makeRGB = function () {
+      return "rgb(" + randValue() + "," + randValue() +"," + randValue() + ")";
+    };
+
+    window.onload = function () {
+      //alert("loaded")
+      var myDiv = document.querySelector("#greeting");
+      var myBody = document.querySelector("body");
+      // set background-color to makeColor
+
+      // var myAnimation = setInterval(function () {
+      //   myDiv.style.backgroundColor = makeRGB();
+      //   myBody.style.backgroundColor = makeRGB();
+      // }, 20);
+
+      myDiv.onclick = function () {
+        clearInterval(myAnimation);
+      }
+    }
+  </script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div id="greeting" class="col-xs-6 col-xs-offset-3 burrito taco">
+          Hello world
+        </div>
+     </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
