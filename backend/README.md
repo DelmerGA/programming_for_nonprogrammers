@@ -8,11 +8,15 @@
 | Utilize the **Express** application framework to create a CRUD application |
 | Review and apply JavaScript fundamentals |
 
+
+
 ## Installing!?!?!
 
 ### [Node Install](https://nodejs.org/)
 
-Go to [https://nodejs.org/](https://nodejs.org/) and click the install button
+Go to [https://nodejs.org/](https://nodejs.org/) and click the install button.
+
+![images/node_site.png](images/node_site.png)
 
 ### [Install Brew](http://brew.sh/)
 
@@ -51,6 +55,8 @@ To get started today we are going to want to install a database to store all of 
   ```bash
   sudo chown -R $USER /data/db
   ```
+
+  
 
 
 
