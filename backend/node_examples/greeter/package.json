@@ -1,0 +1,13 @@
+{
+  "name": "greeter",
+  "version": "1.0.0",
+  "main": "greeter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^0.8.0"
+  }
+}
